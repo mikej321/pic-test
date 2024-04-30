@@ -5,10 +5,13 @@ import './App.css'
 
 function App() {
   return (
-    <picture>
-      <source srcSet=".assets/image-hero-desktop.png" media="(min-width: 600px)" type="image/png" />
-      <img src="../src/assets/image-hero-mobile.png" alt="" />
-    </picture>
+    <>
+      <picture>
+        <source srcSet="src/assets/image-hero-desktop.png" media="(min-width: 600px)" type="image/png" />
+        <img src="src/assets/image-hero-mobile.png" alt="" />
+      </picture>
+    </>
+    
   )
 }
 
